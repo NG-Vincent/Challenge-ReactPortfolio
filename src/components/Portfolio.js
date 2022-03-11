@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-
 function Portfolio(props) {
    return (
       <section id="projects">

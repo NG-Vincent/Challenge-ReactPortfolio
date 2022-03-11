@@ -1,16 +1,14 @@
-import React, { useEffect } from "react";
 import resumeFile from "../assets/doc/Resume_Vincent_Nguyen.pdf";
 
 function Resume(props) {
    return (
       <div>
+         {/* header */}
          <h2>Resume</h2>
-
          <a href={resumeFile} download="Resume_Vincent_Nguyen">
             Download Here!
          </a>
 
-         {/* header */}
          <h3>Vincent Nguyen</h3>
          <p>Digital Templator at Stone Design Concepts</p>
 

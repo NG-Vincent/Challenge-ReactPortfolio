@@ -10,7 +10,7 @@ function Nav(props) {
 
    return (
       <header>
-         <h2>Vincent Nguyen</h2>
+         <h1>Vincent Nguyen</h1>
          <nav>
             <ul>
                {/* iterate through all navlinks, create element for each*/}

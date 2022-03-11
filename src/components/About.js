@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 function About(props) {
    return (
       <div>
-         <h3>About Me</h3>
+         <h2>About Me</h2>
          <p>
             Hey, I'm Vincent, and I love tech! Programming has been a big hobby
             of mine since my teenage years, and I hope to put my talents to good

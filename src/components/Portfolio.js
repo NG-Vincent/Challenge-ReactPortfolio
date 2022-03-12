@@ -1,5 +1,10 @@
 function Portfolio(props) {
    const projects = [
+      // title: header text
+      // img: image filename
+      // alt: html image alt text
+      // github: URL of github repository
+      // deploy: URL of deployed app
       {
          title: "Job Tracker",
          img: "jobtracker",
@@ -46,15 +51,20 @@ function Portfolio(props) {
 
    return (
       <section id="projects">
+         {/* section header */}
          <h2>Projects</h2>
+         {/* array mapping */}
          {projects.map((info) => (
             <div className="project" key={info.title}>
+               {/* header */}
                <h3>{info.title}</h3>
+               {/* image */}
                <img
                   className="project-img"
                   src={require(`../assets/img/${info.img}.jpg`)}
                   alt={info.alt}
                />
+               {/* links */}
                <ul>
                   <li>
                      <a href={info.github} target="_blank" rel="noreferrer">

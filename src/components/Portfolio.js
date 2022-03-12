@@ -65,18 +65,15 @@ function Portfolio(props) {
                   alt={info.alt}
                />
                {/* links */}
-               <ul>
-                  <li>
-                     <a href={info.github} target="_blank" rel="noreferrer">
-                        See on Github
-                     </a>
-                  </li>
-                  <li>
-                     <a href={info.deploy} target="_blank" rel="noreferrer">
-                        Go to App
-                     </a>
-                  </li>
-               </ul>
+               <span className="project-links">
+                  <a href={info.deploy} target="_blank" rel="noreferrer">
+                     Open App
+                  </a>{" "}
+                  /{" "}
+                  <a href={info.github} target="_blank" rel="noreferrer">
+                     Github Repo
+                  </a>
+               </span>
             </div>
          ))}
       </section>

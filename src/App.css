@@ -51,9 +51,10 @@ nav span:hover {
    color: var(--colormid);
    background-color: var(--coloraccent);
 }
-/* currently selected nav */
+/* highlight currently selected nav */
 .current-nav {
    color: var(--coloraccent);
+   font-weight: bold;
 }
 /* style the links */
 a {
@@ -97,6 +98,21 @@ h3 {
 }
 .about-text {
    flex: 1;
+}
+/* --- PROJECT --- */
+.project {
+   flex: 1 0 300px;
+   border: 8px solid var(--coloraccent);
+}
+/* must set display:block to remove the whitespace under the image */
+.project img {
+   width: 100%;
+   display: block;
+}
+/* spacing around project links */
+.project-links {
+   margin: 10px;
+   line-height: 35px;
 }
 
 .project-img {

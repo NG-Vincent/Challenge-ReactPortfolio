@@ -178,3 +178,43 @@ footer h1 {
    background-color: var(--coloraccent);
    padding: 0 20px;
 }
+
+/* ------ MEDIA QUERIES ------ */
+@media screen and (max-width: 1000px) {
+   /* reduce side padding */
+   section {
+      padding: 0 7%;
+   }
+   /* center the elements */
+   footer {
+      align-items: center;
+      text-align: center;
+      line-height: 1.5;
+   }
+   /* remove flex, fill entire width */
+   .signature {
+      display: block;
+   }
+}
+@media screen and (max-width: 700px) {
+   header h1,
+   footer h1 {
+      font-size: 40px;
+   }
+   h2 {
+      font-size: 32px;
+   }
+   /* reduce padding */
+   .about-img {
+      margin: 20px 0 0;
+   }
+   .about-text {
+      padding: 0 0 var(--sectiongap) 0;
+   }
+}
+@media screen and (max-width: 350px) {
+   /* remove side padding (top and bottom padding should already be 0 */
+   section {
+      padding: 0;
+   }
+}

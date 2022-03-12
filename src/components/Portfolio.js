@@ -1,10 +1,7 @@
 function Portfolio(props) {
    return (
       <section id="projects">
-         {/* full width */}
          <h2>Projects</h2>
-         {/* elements stack vertically at smaller screens */}
-         {/* first, primary project */}
          <a className="project" href="https://safe-cove-20593.herokuapp.com/">
             <h3>Job Tracker</h3>
             <img
@@ -13,7 +10,7 @@ function Portfolio(props) {
                alt="Webpage of a song and lyric search engine."
             />
          </a>
-         {/* remaining projects, flexing */}
+
          <a
             className="project"
             href="https://github.com/chamibia/lyrics-finder/"
@@ -25,6 +22,7 @@ function Portfolio(props) {
                alt="Webpage of a song and lyric search engine."
             />
          </a>
+
          <a className="project" href="https://ng-vincent.github.io/run-buddy/">
             <h3>Run Buddy</h3>
             <img
@@ -33,36 +31,40 @@ function Portfolio(props) {
                alt="A runner tying their shoes and getting ready to go for a jog."
             />
          </a>
-         <a className="project" href="./placeholder.html">
-            <h3>Plant Museum</h3>
+
+         <a
+            className="project"
+            href="https://intense-springs-39510.herokuapp.com/"
+         >
+            <h3>Note Taker</h3>
             <img
                className="placeholder-img"
-               src={require("../assets/img/museum.jpg")}
-               alt="The main lobby of a multi-floor museum featuring many lights, overpasses, and massive planters on the walls."
+               src={require("../assets/img/notetaker.jpg")}
+               alt="Webpage for a note taking app."
             />
          </a>
-         <a className="project" href="./placeholder.html">
-            <h3>Festival Decoration</h3>
+
+         <a
+            className="project"
+            href="https://sleepy-brook-70860.herokuapp.com/"
+         >
+            <h3>Tech Blog</h3>
             <img
                className="placeholder-img"
-               src={require("../assets/img/festival.jpg")}
-               alt="A cemetary at dusk with many tall trees and bright candles at the gravestones."
+               src={require("../assets/img/techblog.jpg")}
+               alt="Webpage for a tech blog app."
             />
          </a>
-         <a className="project" href="./placeholder.html">
-            <h3>Subway Design</h3>
+
+         <a
+            className="project"
+            href="https://ancient-beyond-15125.herokuapp.com/"
+         >
+            <h3>Budget Tracker</h3>
             <img
                className="placeholder-img"
-               src={require("../assets/img/subway.jpg")}
-               alt="The main deck inside a large subway station, with the viewer facing two escalators heading upwards."
-            />
-         </a>
-         <a className="project" href="./placeholder.html">
-            <h3>Tourism Planning</h3>
-            <img
-               className="placeholder-img"
-               src={require("../assets/img/tourism.jpg")}
-               alt="A lakeside town at dawn with great mountains in the background."
+               src={require("../assets/img/budgettracker.jpg")}
+               alt="Webpage for a budget tracker app."
             />
          </a>
       </section>

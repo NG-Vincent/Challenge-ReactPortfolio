@@ -12,22 +12,22 @@ function Nav(props) {
       <header>
          <h1>Vincent Nguyen</h1>
          <nav>
-            <ul>
-               {/* iterate through all navlinks, create element for each*/}
-               {navlinks.map((navlink) => (
-                  <li
-                     // key for react mapping
-                     key={navlink.name}
-                     // click handler. pass state up to App.js
-                     onClick={() => {
-                        setCurrentNav(navlink);
-                     }}
-                  >
-                     {/* text content */}
-                     {navlink}
-                  </li>
-               ))}
-            </ul>
+            {/* iterate through all navlinks, create element for each*/}
+            {navlinks.map((navlink) => (
+               <span
+                  // key for react mapping
+                  key={navlink}
+                  // class for text highlight when currently selected nav
+                  className={currentNav === navlink ? "current-nav" : undefined}
+                  // click handler. pass state up to App.js
+                  onClick={() => {
+                     setCurrentNav(navlink);
+                  }}
+               >
+                  {/* text content */}
+                  {navlink}
+               </span>
+            ))}
          </nav>
       </header>
    );

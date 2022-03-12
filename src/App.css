@@ -1,3 +1,65 @@
+:root {
+   --coloraccent: rgb(228, 129, 0);
+   --colorlight: rgb(236, 236, 236);
+   --colormid: rgb(70, 70, 70);
+   --colordark: rgb(32, 32, 32);
+   --sectiongap: 30px;
+}
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: var(--colorlight);
+   background-color: var(--colordark);
+}
+/* --- HEADER --- contains name and navigation */
+header {
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   align-items: stretch;
+   background-color: var(--colormid);
+}
+header h1 {
+   background-color: var(--coloraccent);
+   font-size: 60px;
+   padding: 10px;
+   flex-grow: 1;
+   color: var(--colordark);
+}
+/* navigation, contains links to sections */
+nav {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: stretch;
+   flex-grow: 2;
+   gap: 15px;
+}
+/* navigation links appear as large "buttons" */
+nav span {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+}
+/* light up on mouseover */
+nav span:hover {
+   color: var(--colormid);
+   background-color: var(--coloraccent);
+}
+/* currently selected nav */
+.current-nav {
+   color: var(--coloraccent);
+}
+/* style the links */
+a {
+   font-weight: bolder;
+   text-decoration: none;
+}
 .about-img {
    width: 250px;
 }

@@ -2,12 +2,15 @@ import resumeFile from "../assets/doc/Resume_Vincent_Nguyen.pdf";
 
 function Resume(props) {
    return (
-      <div>
+      <section className="resume">
          {/* header */}
          <h2>Resume</h2>
-         <a href={resumeFile} download="Resume_Vincent_Nguyen">
-            Download Here!
-         </a>
+         <p>
+            <a href={resumeFile} download="Resume_Vincent_Nguyen">
+               Click here to download!
+            </a>
+         </p>
+         <br />
 
          <h3>Vincent Nguyen</h3>
          <p>Digital Templator at Stone Design Concepts</p>
@@ -17,6 +20,29 @@ function Resume(props) {
             Big lover of technology and software! Also not afraid of getting his
             hands dirty on occasion.
          </p>
+
+         {/* skills */}
+         <h3>Skills and Tools</h3>
+
+         <h4>Programming</h4>
+         <p>JavaScript</p>
+         <p>CSS</p>
+         <p>HTML</p>
+         <p>Python</p>
+         <p>C</p>
+         <p>Regular expressions (Regex)</p>
+
+         <h4>Software</h4>
+         <p>AutoCAD</p>
+         <p>LabVIEW</p>
+         <p>RsLogix</p>
+         <p>AutoHotkey</p>
+         <p>Arduino</p>
+         <p>Photoshop</p>
+         <p>Word</p>
+         <p>Excel</p>
+         <p>Blender</p>
+         <p>Alphacam</p>
 
          {/* experience */}
          <h3>Experience</h3>
@@ -54,7 +80,7 @@ function Resume(props) {
             Technicians
          </p>
          <p>September 2011 - June 2014</p>
-      </div>
+      </section>
    );
 }
 

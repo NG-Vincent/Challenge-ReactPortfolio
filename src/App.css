@@ -142,6 +142,17 @@ button {
    font-weight: bold;
    margin-bottom: 10px;
 }
+/* --- RESUME --- */
+.resume {
+   display: block;
+}
+.resume h3,
+.resume h4 {
+   padding: 8px;
+}
+.resume p {
+   padding: 6px 18px;
+}
 
 .project-img {
    width: 250px;

@@ -43,7 +43,7 @@ function Contact(props) {
       <section>
          <h2 data-testid="h1tag">Contact me</h2>
          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
+            <div className="contact-section">
                <label htmlFor="name">Name:</label>
                <input
                   type="text"
@@ -52,7 +52,7 @@ function Contact(props) {
                   onBlur={handleChange}
                />
             </div>
-            <div>
+            <div className="contact-section">
                <label htmlFor="email">Email address:</label>
                <input
                   type="email"
@@ -61,7 +61,7 @@ function Contact(props) {
                   onBlur={handleChange}
                />
             </div>
-            <div>
+            <div className="contact-section">
                <label htmlFor="message">Message:</label>
                <textarea
                   name="message"

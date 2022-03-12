@@ -114,6 +114,34 @@ h3 {
    margin: 10px;
    line-height: 35px;
 }
+/* --- CONTACT --- */
+form {
+   width: 80%;
+}
+input,
+textarea {
+   background-color: var(--colorlight);
+   color: var(--colordark);
+   padding: 8px;
+   border: none;
+   width: 100%;
+}
+.contact-section {
+   margin-bottom: 20px;
+}
+button {
+   color: var(--colordark);
+   background-color: var(--coloraccent);
+   font-size: 20px;
+   font-weight: bold;
+   padding: 8px;
+   border: none;
+}
+.error-text {
+   color: var(--coloraccent);
+   font-weight: bold;
+   margin-bottom: 10px;
+}
 
 .project-img {
    width: 250px;

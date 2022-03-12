@@ -1,16 +1,16 @@
 function About(props) {
    return (
-      <div>
+      <section>
          <h2>About Me</h2>
 
-         <div>
+         <div className="about-img">
             <img
-               className="about-img"
                src={require("../assets/img/portrait.jpg")}
                alt="My Portrait!"
             />
          </div>
-         <p>
+
+         <p className="about-text">
             Hey, I'm Vincent, and I love tech! Programming has been a big hobby
             of mine since my teenage years, and I hope to put my talents to good
             use. I have confidence in the entirety of full-stack development,
@@ -18,7 +18,7 @@ function About(props) {
             server optimization. Below, you will find my various projects,
             including my schoolwork and even some of my hobby work.
          </p>
-      </div>
+      </section>
    );
 }
 

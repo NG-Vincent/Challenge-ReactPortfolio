@@ -11,17 +11,17 @@
    padding: 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: var(--colorlight);
-   background-color: var(--colordark);
+}
+body {
+   background-color: var(--colormid);
 }
 /* --- HEADER --- contains name and navigation */
 header {
    text-align: center;
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
    justify-content: space-between;
    align-items: stretch;
-   background-color: var(--colormid);
 }
 header h1 {
    background-color: var(--coloraccent);
@@ -37,7 +37,6 @@ nav {
    justify-content: space-evenly;
    align-items: stretch;
    flex-grow: 2;
-   gap: 15px;
 }
 /* navigation links appear as large "buttons" */
 nav span {
@@ -45,11 +44,13 @@ nav span {
    justify-content: center;
    align-items: center;
    flex: 1;
+   background-color: var(--colordark);
 }
 /* light up on mouseover */
 nav span:hover {
    color: var(--colormid);
    background-color: var(--coloraccent);
+   cursor: pointer;
 }
 /* highlight currently selected nav */
 .current-nav {
@@ -60,6 +61,15 @@ nav span:hover {
 a {
    font-weight: bolder;
    text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+   color: var(--coloraccent);
+}
+/* spacing around links */
+.links-wrapper {
+   margin: 10px;
+   line-height: 35px;
 }
 /* --- SECTION --- */
 main {
@@ -109,11 +119,6 @@ h3 {
    width: 100%;
    display: block;
 }
-/* spacing around project links */
-.project-links {
-   margin: 10px;
-   line-height: 35px;
-}
 /* --- CONTACT --- */
 form {
    width: 80%;
@@ -153,7 +158,23 @@ button {
 .resume p {
    padding: 6px 18px;
 }
-
-.project-img {
-   width: 250px;
+/* --- FOOTER --- */
+.filler-space {
+   flex-grow: 1;
+}
+/* unlike the header, the text is "aligned" to the right. @media smaller screen size will center it */
+footer {
+   background-color: var(--colordark);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+footer h1 {
+   font-size: 46px;
+}
+/* highlight the name, just like the header, but using different method and HTML */
+.signature {
+   color: var(--colordark);
+   background-color: var(--coloraccent);
+   padding: 0 20px;
 }

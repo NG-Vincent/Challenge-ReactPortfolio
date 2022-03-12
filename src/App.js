@@ -14,7 +14,7 @@ function App() {
    const [currentNav, setCurrentNav] = useState(navlinks[0]);
 
    return (
-      <div>
+      <>
          {/* props for conditional rendering */}
          <Nav
             navlinks={navlinks}
@@ -28,8 +28,9 @@ function App() {
             {currentNav === "Contact" && <Contact />}
             {currentNav === "Resume" && <Resume />}
          </main>
+         <div className="filler-space"></div>
          <Footer />
-      </div>
+      </>
    );
 }
 

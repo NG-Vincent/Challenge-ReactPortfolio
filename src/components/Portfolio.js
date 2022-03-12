@@ -65,7 +65,7 @@ function Portfolio(props) {
                   alt={info.alt}
                />
                {/* links */}
-               <span className="project-links">
+               <span className="links-wrapper">
                   <a href={info.deploy} target="_blank" rel="noreferrer">
                      Open App
                   </a>{" "}

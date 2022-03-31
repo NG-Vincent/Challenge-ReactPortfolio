@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.bd2b33a1.css",
-    "main.js": "/ReactPortfolio/static/js/main.f171d369.js",
+    "main.js": "/ReactPortfolio/static/js/main.4bbfda25.js",
     "static/js/787.e29dc422.chunk.js": "/ReactPortfolio/static/js/787.e29dc422.chunk.js",
     "static/media/portrait.jpg": "/ReactPortfolio/static/media/portrait.52ee06fd7d11f9ee856f.jpg",
     "static/media/techblog.jpg": "/ReactPortfolio/static/media/techblog.4a8612bf6a2e6cfc19db.jpg",
     "static/media/runbuddy.jpg": "/ReactPortfolio/static/media/runbuddy.e36b84b4d73724738c1a.jpg",
     "static/media/lyricsfinder.jpg": "/ReactPortfolio/static/media/lyricsfinder.8d48405ab28b99be671d.jpg",
+    "static/media/jibberjabber.jpg": "/ReactPortfolio/static/media/jibberjabber.4935cc514ef5e2af0d2f.jpg",
     "static/media/budgettracker.jpg": "/ReactPortfolio/static/media/budgettracker.22d55172d12a743c8885.jpg",
     "static/media/jobtracker.jpg": "/ReactPortfolio/static/media/jobtracker.9bc345e1c0662246d324.jpg",
     "static/media/Resume_Vincent_Nguyen.pdf": "/ReactPortfolio/static/media/Resume_Vincent_Nguyen.f57d58b9b4c420d82ba3.pdf",
     "static/media/notetaker.jpg": "/ReactPortfolio/static/media/notetaker.bb66d022cc369ed61882.jpg",
     "index.html": "/ReactPortfolio/index.html",
     "main.bd2b33a1.css.map": "/ReactPortfolio/static/css/main.bd2b33a1.css.map",
-    "main.f171d369.js.map": "/ReactPortfolio/static/js/main.f171d369.js.map",
+    "main.4bbfda25.js.map": "/ReactPortfolio/static/js/main.4bbfda25.js.map",
     "787.e29dc422.chunk.js.map": "/ReactPortfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd2b33a1.css",
-    "static/js/main.f171d369.js"
+    "static/js/main.4bbfda25.js"
   ]
 }

@@ -6,6 +6,13 @@ function Portfolio(props) {
       // github: URL of github repository
       // deploy: URL of deployed app
       {
+         title: "Jibber jabber",
+         img: "jibberjabber",
+         alt: "Webpage of a chat messaging app.",
+         github: "https://github.com/KKkaran/Jibber-Jabber/",
+         deploy: "https://jibber-jabber-app.herokuapp.com//",
+      },
+      {
          title: "Job Tracker",
          img: "jobtracker",
          alt: "Webpage of a job tracking app.",

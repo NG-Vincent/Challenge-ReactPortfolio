@@ -11,7 +11,7 @@ function Footer(props) {
                target="_blank"
                rel="noreferrer"
             >
-               Github
+               GitHub
             </a>
             {" / "}
             <a

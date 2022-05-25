@@ -71,7 +71,7 @@ function Contact(props) {
                <li>
                   LinkedIn:{" "}
                   <a
-                     href="https://www.linkedin.com/in/vincent-nguyen-4994bb221/"
+                     href="https://www.linkedin.com/in/ng-vincent/"
                      target="_blank"
                      rel="noreferrer"
                   >
